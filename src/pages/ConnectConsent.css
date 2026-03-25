@@ -1,0 +1,38 @@
+/* Connect Consent specific styles */
+
+.consent-required-label {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #111827;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.consent-desc {
+  font-size: 0.85rem;
+  color: #4B5563;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+
+.providers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 32px;
+}
+
+.provider-item {
+  display: flex;
+  align-items: center;
+}
+
+.consent-fineprint {
+  font-size: 0.7rem;
+  color: #6B7280;
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}

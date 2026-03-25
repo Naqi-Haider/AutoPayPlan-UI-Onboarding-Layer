@@ -1,0 +1,115 @@
+.flinks-success-bg {
+  background-color: white;
+}
+
+.flinks-success-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.flinks-logo-top {
+  margin-bottom: 60px;
+}
+
+.success-circle-container {
+  margin-bottom: 32px;
+  position: relative;
+  z-index: 10;
+}
+
+.success-circle {
+  width: 96px;
+  height: 96px;
+  background-color: #6EE7B7; /* light green */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 24px rgba(110, 231, 183, 0.4);
+  animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.success-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #111827;
+  text-align: center;
+  margin-bottom: 16px;
+  line-height: 1.4;
+  z-index: 10;
+}
+
+.success-subtitle {
+  font-size: 0.85rem;
+  color: #6B7280;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 16px;
+  z-index: 10;
+}
+
+/* Confetti */
+.confetti-container {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.confetti {
+  position: absolute;
+  width: 8px;
+  height: 16px;
+  background-color: #F59E0B;
+  opacity: 0;
+}
+
+/* Hardcoded random-looking confetti pieces */
+.piece-0 { left: 10%; top: 30%; background-color: #3B82F6; animation: fall-1 2s ease-out forwards; }
+.piece-1 { left: 20%; top: 40%; background-color: #EF4444; animation: fall-2 2s ease-out 0.1s forwards; transform: rotate(45deg); }
+.piece-2 { left: 80%; top: 20%; background-color: #10B981; animation: fall-3 2.5s ease-out forwards; transform: rotate(-25deg); }
+.piece-3 { left: 70%; top: 50%; background-color: #8B5CF6; animation: fall-4 2s ease-out 0.2s forwards; }
+.piece-4 { left: 40%; top: 35%; background-color: #F59E0B; animation: fall-1 2.2s ease-out 0.1s forwards; transform: rotate(70deg); }
+.piece-5 { left: 60%; top: 45%; background-color: #3B82F6; animation: fall-2 2.1s ease-out forwards; }
+.piece-6 { left: 30%; top: 25%; background-color: #EF4444; animation: fall-3 2.4s ease-out 0.3s forwards; }
+.piece-7 { left: 90%; top: 40%; background-color: #10B981; animation: fall-4 2.3s ease-out forwards; transform: rotate(-60deg); }
+.piece-8 { left: 15%; top: 60%; background-color: #8B5CF6; animation: fall-1 2s ease-out 0.2s forwards; }
+.piece-9 { left: 85%; top: 65%; background-color: #F59E0B; animation: fall-2 2.5s ease-out 0.1s forwards; }
+.piece-10 { left: 25%; top: 80%; background-color: #3B82F6; animation: fall-3 1.8s ease-out 0.4s forwards; transform: rotate(15deg); }
+.piece-11 { left: 75%; top: 75%; background-color: #EF4444; animation: fall-4 2.1s ease-out 0.2s forwards; transform: rotate(-15deg); }
+.piece-12 { left: 50%; top: 20%; background-color: #10B981; animation: fall-1 2s ease-out forwards; }
+.piece-13 { left: 55%; top: 70%; background-color: #8B5CF6; animation: fall-2 2.3s ease-out 0.3s forwards; }
+.piece-14 { left: 45%; top: 85%; background-color: #F59E0B; animation: fall-3 2.2s ease-out 0.1s forwards; transform: rotate(85deg); }
+.piece-15 { left: 5%; top: 50%; background-color: #3B82F6; animation: fall-4 2.6s ease-out forwards; transform: rotate(-45deg); }
+.piece-16 { left: 95%; top: 55%; background-color: #EF4444; animation: fall-1 2.4s ease-out 0.2s forwards; transform: rotate(35deg); }
+.piece-17 { left: 35%; top: 65%; background-color: #10B981; animation: fall-2 2.1s ease-out 0.1s forwards; }
+.piece-18 { left: 65%; top: 30%; background-color: #8B5CF6; animation: fall-3 2.5s ease-out 0.3s forwards; transform: rotate(-75deg); }
+.piece-19 { left: 50%; top: 50%; background-color: #F59E0B; animation: fall-4 2s ease-out forwards; }
+
+@keyframes fall-1 {
+  0% { transform: translateY(-50px) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(150px) rotate(180deg); opacity: 0; }
+}
+@keyframes fall-2 {
+  0% { transform: translateY(-30px) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(200px) rotate(-180deg); opacity: 0; }
+}
+@keyframes fall-3 {
+  0% { transform: translateY(-60px) rotate(45deg); opacity: 1; }
+  100% { transform: translateY(180px) rotate(225deg); opacity: 0; }
+}
+@keyframes fall-4 {
+  0% { transform: translateY(-40px) rotate(-45deg); opacity: 1; }
+  100% { transform: translateY(160px) rotate(-225deg); opacity: 0; }
+}

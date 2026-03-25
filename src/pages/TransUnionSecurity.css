@@ -1,0 +1,21 @@
+.security-card {
+  padding: 24px 16px;
+}
+
+.security-questions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.security-question-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #111827;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.security-radio {
+  gap: 12px;
+}

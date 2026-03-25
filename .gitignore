@@ -1,0 +1,27 @@
+# Dependencies
+node_modules
+.vite
+dist
+
+# Environment
+.env
+.env.local
+
+# Project Specific (Exclusion requested by user)
+requirements.md
+Dashboard Implementation (UI End-to-End MV Features).pdf
+figma_*.json
+figma_file_info.json
+figma_images.json
+figma_onboarding_layer.json
+_tmp_pdf_parser/
+temp_pdf_content.txt
+
+# IDEs
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

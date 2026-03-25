@@ -1,0 +1,59 @@
+.summary-subtitle {
+  font-size: 0.8rem;
+  color: #4B5563;
+  margin-bottom: 24px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.summary-card-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #111827;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.summary-row:last-child {
+  margin-bottom: 0;
+}
+
+.summary-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.summary-sublabel {
+  font-size: 0.75rem;
+  color: #9CA3AF;
+  margin-top: 4px;
+  font-weight: 400;
+}
+
+.summary-value {
+  padding: 8px 12px;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #111827;
+  text-align: right;
+  min-width: 100px;
+}
+
+.add-other-link {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #111827;
+  cursor: pointer;
+  margin-top: 16px;
+  display: inline-block;
+}

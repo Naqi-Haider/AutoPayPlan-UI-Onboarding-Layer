@@ -1,0 +1,36 @@
+.validate-method-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.validate-method-subtitle {
+  font-size: 0.75rem;
+  color: #6B7280;
+  margin-bottom: 24px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: #4B5563;
+  line-height: 1.4;
+}
+
+.radio-label input[type="radio"] {
+  margin-top: 2px;
+  min-width: 16px;
+  min-height: 16px;
+  accent-color: #3B82F6;
+}

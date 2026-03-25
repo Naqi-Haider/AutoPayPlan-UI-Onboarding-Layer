@@ -1,0 +1,31 @@
+/* Financial Fears specific styles */
+.fears-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.fear-btn {
+  background-color: white;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 0.85rem;
+  color: #4B5563;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: calc(50% - 6px); /* 2 columns */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.fear-btn.selected, .fear-btn:hover {
+  border-color: #3B82F6;
+  background-color: #EFF6FF;
+  color: #111827;
+  font-weight: 600;
+}
